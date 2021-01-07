@@ -1,0 +1,32 @@
+<!--点餐页面-->
+<view class="container">
+  <view class="top">
+    上
+  </view>
+  <view class="bottom">
+    <view class="left">
+      <view class="category" bindtap="selectCategory"  >
+        <image src="../../images/user.png"></image>
+        <view class="categoryName">新品上线</view>
+      </view>
+      <view class="category">
+        <image src="../../images/user.png"></image>
+        <view class="categoryName">鲜果茶园</view>
+      </view>
+      <view class="category">
+        <image src="../../images/user.png"></image>
+        <view class="categoryName">醇香奶茶</view>
+      </view>
+      <view class="category">
+        <image src="../../images/user.png"></image>
+        <view class="categoryName">原彻茗作</view>
+      </view>
+      <view class="category">
+        <image src="../../images/user.png"></image>
+        <view class="categoryName">益小料</view>
+      </view>
+    </view>
+    <view class="right">右</view>
+  </view>
+</view>
+

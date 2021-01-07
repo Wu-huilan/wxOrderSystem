@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button> 取餐 </button>
+  </view>
+
+</view>

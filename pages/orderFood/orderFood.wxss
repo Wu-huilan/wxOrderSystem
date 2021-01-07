@@ -1,0 +1,45 @@
+/* *{
+  margin: 0rpx;
+} */
+
+.top{
+  background-color: #1AAD19;
+  height: 130rpx;
+}
+
+.left{
+  /* background-color: red; */
+  width: 25%;
+}
+
+.left image{
+  width: 60rpx;
+  height: 60rpx;
+  display: block;
+  margin: 0 auto;
+}
+
+.left .categoryName{
+  text-align: center;
+  font-size: 28rpx;
+}
+
+.left .category{
+  padding: 20rpx;
+}
+
+.left .selectCategory{
+  /* padding: 20rpx; */
+  background-color: burlywood;
+}
+
+.right{
+  background-color: black;
+  width: 75%;
+}
+
+.bottom{
+  flex-direction:row;
+  display:flex;
+  height: 1000px;
+}

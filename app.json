@@ -1,0 +1,49 @@
+{
+  "pages":[
+    "pages/orderFood/orderFood",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/home/home",
+    
+    "pages/takeFood/takeFood"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#f10b2e",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/tarbar/tarbar_home.png",
+        "selectedIconPath": "/images/tarbar/tarbar_home.png"
+      },
+      {
+        "pagePath": "pages/orderFood/orderFood",
+        "text": "点餐",
+        "iconPath": "/images/tarbar/tarbar_dianCan.png",
+        "selectedIconPath": "/images/tarbar/tarbar_dianCan.png"
+      },
+      {
+        "pagePath": "pages/takeFood/takeFood",
+        "text": "取餐",
+        "iconPath": "/images/tarbar/tarbar_qvCan.png",
+        "selectedIconPath": "/images/tarbar/tarbar_qvCan.png"
+      },
+      
+      {
+        "pagePath": "pages/home/home",
+        "text": "我的",
+        "iconPath": "/images/tarbar/tarbar_me.png",
+        "selectedIconPath": "/images/tarbar/tarbar_me.png"
+      }
+    ]
+  }
+}
